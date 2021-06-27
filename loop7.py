@@ -1,4 +1,4 @@
-#
+# Demonstrates validation of user's input
 
 while True:
     n = int(input("What's n? "))
