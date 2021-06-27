@@ -16,6 +16,8 @@ conditional3.py
 conditional4.py
 conditional5.py
 
+# Assigning a Grade
+
 loop0.py
 loop1.py
 loop2.py
@@ -25,7 +27,13 @@ loop5.py
 loop6.py
 loop7.py
 
+# Printing Bricks
+# Printing Coins
+# Printing Walls
+
 guess0.py
 guess1.py
 guess2.py
 guess3.py
+
+# Guessing Game
