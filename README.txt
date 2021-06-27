@@ -25,4 +25,7 @@ loop5.py
 loop6.py
 loop7.py
 
-guess.py
+guess0.py
+guess1.py
+guess2.py
+guess3.py
