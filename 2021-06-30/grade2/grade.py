@@ -1,5 +1,5 @@
-def get_letter_grade(percent):
-    if percent >= 90:
+def get_letter_grade(score):
+    if score >= 90:
         return "A"
-    if percent >= 80:
+    if score >= 80:
         return "B"
