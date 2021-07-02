@@ -1,3 +1,11 @@
+def main():
+    amount = input("Amount: ")
+    if validate_amount(amount):
+        print("Valid!")
+    else:
+        print("Invalid!")
+
+
 def validate_amount(amount):
 
     if not amount.startswith("$"):
@@ -17,3 +25,6 @@ def validate_amount(amount):
         return False
 
     return True
+
+
+main()
