@@ -1,13 +1,9 @@
-def main():
-    height = get_height()
-    for _ in range(height):
-        print("#")
+import sys
 
-def get_height():
-    while True:
-        try:
-            return int(input("What's height? "))
-        except:
-            pass
+try:
+    height = int(input("Height: "))
+except ValueError:
+    sys.exit("Invalid height!")
 
-main()
+for _ in range(height):
+    print("#")
