@@ -1,4 +1,5 @@
 def main():
+    height = get_height()
     for _ in range(height):
         print("#")
 
