@@ -3,9 +3,8 @@ import csv
 
 class Scrabble:
 
-    _points = {}
-
     def __init__(self):
+        self._points = {}
         with open("scrabble.csv") as csvfile:
             rows = csv.DictReader(csvfile)
             for row in rows:
